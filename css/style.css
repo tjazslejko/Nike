@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	margin:0;
+}
+#zavihek{
+	background:black;
+	height:17mm;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+.svg{
+	padding:6mm;
+}
+.original{
+	padding:6mm;
+}
+.beizer{
+	padding:6mm;
+}
+#cvs{
+	position:absolute;
+	left:240mm;
+	top:95mm;
+}
+#color_picker{
+	position:absolute;
+	left:80mm;
+	top:80mm;
+}
+#noga{
+	position:absolute;
+	width:100%;
+	height:78mm;
+	background:rgb(174, 182, 191 );
+	top:170mm;
+	
+}
+.noganapis{
+	text-align:center;
+	font-family:courier;
+}
+.noganapis1{
+	text-align:center;
+	font-family:arial;
+}
+.noganapis2{
+	text-align:center;
+	font-family:arial;
+}
+#canvas1{
+	position:absolute;
+	left:170mm;
+	top:20mm;
+}
+#slikacevlja{
+	position:absolute;
+	left:110mm;
+	top:18mm;
+}
+.barve{
+	text-align:center;
+	font-family:arial;
+}

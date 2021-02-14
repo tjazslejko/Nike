@@ -1,0 +1,81 @@
+*{
+	padding:0;
+	margin:0;
+}
+#zavihek{
+	background:black;
+	height:17mm;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+.svg{
+	padding:6mm;
+}
+.original{
+	padding:6mm;
+}
+.beizer{
+	padding:6mm;
+}
+.naslov{
+	text-align:center;
+	font-family:arial;
+}
+#h1{
+	text-align:center;
+}
+#nikeznaki{
+	margin-left:400px;
+}
+.nike{
+	position:absolute;
+	left:120mm;
+	top:95mm;
+	font-family:courier;
+}
+.nike1{
+	position:absolute;
+	left:205mm;
+	top:94mm;
+	font-family:courier;
+}
+.nike2{
+	position:absolute;
+	left:310mm;
+	top:96mm;
+	font-family:courier;
+}
+body{
+	background:rgb(174, 182, 191 );
+}
+#adidasznaki{
+	margin-left:400px;
+	margin-top:50px;
+}
+.adidas{
+	position:absolute;
+	left:120mm;
+	top:207mm;
+	font-family:courier;
+}
+.adidas1{
+	position:absolute;
+	left:240mm;
+	top:205mm;
+	font-family:courier;
+}
+.adidas2{
+	position:absolute;
+	left:360mm;
+	top:205mm;
+	font-family:courier;
+}

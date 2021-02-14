@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;
+}
+#zavihek1{
+	background:black;
+	height:17mm;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+.svg{
+	padding:6mm;
+}
+.original{
+	padding:6mm;
+}
+.beizer{
+	padding:6mm;
+}
+#adidas{
+	position:absolute;
+	left:230mm;
+	top:55mm;
+}
+#color_picker1{
+	position:absolute;
+	left:250mm;
+	top:40mm;
+}
+#shirt{
+	margin-left:700px;
+	margin-top:20px;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#noga1{
+	position:absolute;
+	width:100%;
+	height:50mm;
+	background:rgb(153, 204, 255 );
+	top:198mm;
+}
+.adidasnapis{
+	text-align:center;
+	font-family:courier;
+}
+.adidasnapis1{
+	text-align:center;
+	font-family:arial;
+}
+.adidasnapis2{
+	text-align:center;
+	font-family:arial;
+}
+#canvas3{
+	position:absolute;
+	left:170mm;
+	top:10mm;
+	transform:scale(0.8)
+}
